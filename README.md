@@ -232,7 +232,6 @@ Url: localhost:8000/player/1/history
 - Validações e respostas de erro;
 - Documentação da API;
 - Implementação de testes automatizados (unitários, de integração, e ponta-a-ponta);
-- Uso de práticas de autenticação e autorização;
 - Build e Deploy da aplicação (Docker).
 
 ## O que não será avaliado
