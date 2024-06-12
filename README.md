@@ -82,7 +82,7 @@ Body: {
 ```
 HTTP Status: 200
 Body: {
-    player": 1,
+    "player": 1,
     "balance": 995,
     "txn_uuid": "57fc384b-645d-44de-8c36-dc9d7fcc35c4"
 }
@@ -130,7 +130,9 @@ Por exemplo:
 Method: POST
 Url: localhost:8000/rollback
 Body: {
-    "txn_uuid": "57fc384b-645d-44de-8c36-dc9d7fcc35c4"
+    "reference_txn_uuid": "57fc384b-645d-44de-8c36-dc9d7fcc35c4",    
+    "player": 1,
+    "value": 5,
 }
 ```
 
